@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Sophia's Engineering Website</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#!">ENGR 11a</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Back</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Portfolio</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page content-->
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <!-- Post content-->
+                    <article>
+                        <!-- Post header-->
+                        <header2 class="mb-4">
+                            <!-- Post title-->
+                            <h1 class="fw-bolder mb-1">Week 2: Printing a Flower pot</h1>
+                            <!-- Post meta content-->
+                            <div class="text-muted fst-italic mb-2">Posted on September 29, 2023 by Sophia Posner</div>
+                        </header>
+                        <!-- Preview image figure-->
+                        <figure class="mb-4-lg-8"><img class="img-fluid rounded" src="images/final_pots.jpg" alt="..." width="500" height="500" /></figure>
+                        <!-- Post content-->
+                        <section class="mb-5">
+                            <p class="fs-5 mb-4">For this week’s project, I was trying to come up with ideas to do. I love when items are functional, and so I looked for something I could use in my apartment. I have lots of plants on my windowsill, but their pots don’t have holes on the bottom to let the water drain out. Because of this, it’s typically annoying when I water them because I have to be careful of how much water I put in, so the roots don’t drown. I came up with the idea that I should print a flower pot that has a dish and drain holes attached to solve this issue. </p>
+                            <p class="fs-5 mb-4">When I was coming up with ideas, I asked for Vincent’s help, as I wasn’t sure if my original idea would be too difficult to print or not. As we were talking, the perfect idea dawned on me and I drew it on the whiteboard immediately. The drawing didn’t end up being extremely detailed, due to my excitement, but I thought it was still good to include below because it came directly from a moment of inspiration in the design process.</p>
+                            <figure class="mb-4-lg-8"><img class="img-fluid rounded" src="images/flower_pot_drawing.jpg" alt="..." width="500" height="500" /></figure>
+                            <p class="fs-5 mb-4">I then moved over to tinkercad to form my ideas. In thingaverse, I found a model of a cool looking flower pot and a somewhat matching small dish. My idea was to connect the bottom of the pot to the dish, and then make four holes on each side of the pot, just below the dish in order to let the water drain out. I made semi-circles for the holes using a cylinder and a rectangular prism, with the rectangular prism being a “hole”. I then duplicated the semi-circle four times and placed them around the sides of the pot, using the align tool to make sure they were even. It was cool using these tools I had learned in the tutorials to suit my needs, and I found tinkercad to be quite intuitive. Below I attached a screenshot of my flower pot and plate in tinkercad, both before and after I combined them and added drain holes. Also below is a picture of the flower pot in prusa slicer.</p>
+                            <figure class="mb-4-lg-8"><img class="img-fluid rounded" src="images/tinker_pot_before.jpg" alt="..." width="500" height="500" /></figure>
+                            <figure class="mb-4-lg-8"><img class="img-fluid rounded" src="images/tinker_pot_after.jpg" alt="..." width="500" height="500" /></figure>
+                            <figure class="mb-4-lg-8"><img class="img-fluid rounded" src="images/pot_prusa_slicer.jpg" alt="..." width="500" height="500" /></figure>
+                            <p class="fs-5 mb-4">Once adding it to the prusa slicer, I made a big mistake: I didn’t change any of the settings in the slicer. I just printed it as is. This meant that I had a large amount of stringiness. I went back and looked at the extruder path in prusa slicer and realized the extruder crossed over the hole in the middle frequently, so the strings created a web in my flower pot. I was able to remove most of the strings after the print finished, but wanted to try another print that didn’t have this issue. Below are pictures of the extruder path in prusa slicer and the finished print with the strings. </p>
+                            <figure class="mb-4-lg-8"><img class="img-fluid rounded" src="images/stringy_pot_slicer.jpg" alt="..." width="500" height="500" /></figure>
+                            <figure class="mb-4-lg-8"><img class="img-fluid rounded" src="images/stringy_pot.jpg" alt="..." width="500" height="500" /></figure>
+                            <p class="fs-5 mb-4">To erase this issue, I changed some of the print settings. I made the retraction speed faster and made the retraction length higher. I wanted to test these settings out with a fast, mini pot in order to see if it worked. I started a mini version of this print, but it ended up failing. There was no bed plate adhesion, and therefore the print just fell off. In order to fix this, I recalibrated the printer and also used an alcohol wipe to make sure there was no oil on the plate. I then reprinted the mini pot and it solved the issue. I stopped the mini pot partially through the print because there was reduced stringiness (it seemed as if my stringiness issue was a lot better) and I wanted to restart the print my flower pot before the class period was over. Below is a picture of the failed mini pot print, as well as the mini pot print I stopped halfway done. Its clear that this print was way less stringy than the one above.</p>
+                            <figure class="mb-4-lg-8"><img class="img-fluid rounded" src="images/failed_mini_pot.jpg" alt="..." width="500" height="500" /></figure>
+                            <figure class="mb-4-lg-8"><img class="img-fluid rounded" src="images/stopped_mini_pot.jpg" alt="..." width="500" height="500" /></figure>
+                            <p class="fs-5 mb-4">Lastly, I reprinted the large version of my flower pot and it came out so well! It was still a little stringy, but it was so much better. Overall, I thought this process taught me so much about fixing mistakes and the design process as a whole. I thought it was very fun to try out different versions to find ways that worked and ways that didn’t. I then potted plants in the two pots and now get to admire them every day!</p>
+                            <figure class="mb-4-lg-8"><img class="img-fluid rounded" src="images/pot2_final.jpeg" alt="..." width="500" height="500" /></figure>
+                        </section>
+                    </article>       
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
